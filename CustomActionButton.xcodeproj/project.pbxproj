@@ -11,6 +11,7 @@
 		CEBFD09B2A944AC40075C5A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBFD09A2A944AC40075C5A5 /* ContentView.swift */; };
 		CEBFD09D2A944AC90075C5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBFD09C2A944AC90075C5A5 /* Assets.xcassets */; };
 		CEBFD0A02A944AC90075C5A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBFD09F2A944AC90075C5A5 /* Preview Assets.xcassets */; };
+		CEBFD0A72A944B120075C5A5 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBFD0A62A944B120075C5A5 /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CEBFD09A2A944AC40075C5A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEBFD09C2A944AC90075C5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBFD09F2A944AC90075C5A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEBFD0A62A944B120075C5A5 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CEBFD0982A944AC40075C5A5 /* CustomActionButtonApp.swift */,
 				CEBFD09A2A944AC40075C5A5 /* ContentView.swift */,
+				CEBFD0A62A944B120075C5A5 /* MotionManager.swift */,
 				CEBFD09C2A944AC90075C5A5 /* Assets.xcassets */,
 				CEBFD09E2A944AC90075C5A5 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBFD09B2A944AC40075C5A5 /* ContentView.swift in Sources */,
+				CEBFD0A72A944B120075C5A5 /* MotionManager.swift in Sources */,
 				CEBFD0992A944AC40075C5A5 /* CustomActionButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
