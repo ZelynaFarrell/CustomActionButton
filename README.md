@@ -33,7 +33,7 @@ Interactivity is achieved by tapping the action button, triggering an animation 
 
 <br>
 
-#### **How to Use**
+### **How to Use**
 1. Clone the repository.
 2. Open the project in Xcode.
 3. Run the application on a physical device to experience the interactive liquid holographic action button.
