@@ -17,7 +17,8 @@ class MotionManager: ObservableObject {
     init() {
         motion = CMMotionManager()
         motion.deviceMotionUpdateInterval = 1 / 60
-        motion.startDeviceMotionUpdates(to: .main) { (motionData, error) in
+        
+        motion.startDeviceMotionUpdates(to: .main) { motionData, error in
             guard error == nil else { return }
             
             if let motionData = motionData {
@@ -26,6 +27,7 @@ class MotionManager: ObservableObject {
                 self.rotation = motionData.rotationRate.x
             }
         }
+        
     }
 }
 
